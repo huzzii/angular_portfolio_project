@@ -6,7 +6,7 @@ header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Ac
 header("Content-Type: application/json; charset=UTF-8");
 define('HOST', 'localhost');
 define('USER', 'root');
-define('PASS', '1357');
+define('PASS', '');
 define('NAME', 'angdb');
 
 $db = new mysqli(HOST ,USER ,PASS ,NAME);
